@@ -1,0 +1,7 @@
+parameters:
+#    will_carry.example.class: Will\CarryBundle\Example
+
+services:
+#    will_carry.example:
+#        class: %will_carry.example.class%
+#        arguments: [@service_id, "plain_value", %parameter%]
