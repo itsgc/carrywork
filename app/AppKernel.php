@@ -17,11 +17,7 @@ class AppKernel extends Kernel
             new Symfony\Bundle\AsseticBundle\AsseticBundle(),
             new Sensio\Bundle\FrameworkExtraBundle\SensioFrameworkExtraBundle(),
             new JMS\SecurityExtraBundle\JMSSecurityExtraBundle(),
-<<<<<<< HEAD
-            new Will\Bundle\CarryBundle\WillCarryBundle(),
             new Will\CarryBundle\WillCarryBundle(),
-=======
->>>>>>> parent of 745b19f... Creazione Bundle
         );
 
         if (in_array($this->getEnvironment(), array('dev', 'test'))) {
