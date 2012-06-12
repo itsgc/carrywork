@@ -1,7 +1,3 @@
-WillCarryBundle_homepage:
-    pattern:  /hello/{name}
-    defaults: { _controller: WillCarryBundle:Default:index }
-
 WillCarryBundle_taskform:
     pattern: /task
     defaults: { _controller: WillCarryBundle:Default:new   }

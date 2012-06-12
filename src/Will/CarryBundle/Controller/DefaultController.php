@@ -15,8 +15,6 @@ class DefaultController extends Controller
 }
 // src/Will/CarryBundle/Controller/DefaultController.php
 
-
-use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 use Will\CarryBundle\Entity\Task;
 use Symfony\Component\HttpFoundation\Request;
 
