@@ -3,7 +3,7 @@
 namespace Will\CarryBundle\Controller;
 
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
-use src\Will\CarryBundle\Entity\Task.php;
+use src\Will\CarryBundle\Entity\Task;
 use Symfony\Component\HttpFoundation\Request;
 
 class DefaultController extends Controller
