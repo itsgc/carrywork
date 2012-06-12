@@ -5,14 +5,6 @@ namespace Will\CarryBundle\Controller;
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 
 
-class DefaultController extends Controller
-{
-    
-    public function indexAction($name)
-    {
-        return $this->render('WillCarryBundle:Default:index.html.twig', array('name' => $name));
-    }
-}
 // src/Will/CarryBundle/Controller/DefaultController.php
 
 use Will\CarryBundle\Entity\Task;
