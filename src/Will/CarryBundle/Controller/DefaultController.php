@@ -40,25 +40,3 @@ class DefaultController extends Controller
 
 // ...
 
-public function newAction(Request $request)
-{
-	// just setup a fresh $task object (remove the dummy data)
-	$task = new Task();
-
-	$form = $this->createFormBuilder($task)
-	->add('task', 'text')
-	->add('dueDate', 'date')
-	->getForm();
-
-	if ($request->getMethod() == 'POST') {
-		$form->bindRequest($request);
-
-		if ($form->isValid()) {
-			// perform some action, such as saving the task to the database
-
-			return $this->redirect($this->generateUrl('task_success'));
-		}
-	}
-
-	// ...
-}
