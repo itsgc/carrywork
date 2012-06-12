@@ -1,0 +1,8 @@
+# Will/CarryBundle/Resources/config/validation.yml
+Will\CarryBundle\Entity\Task:
+    properties:
+        task:
+            - NotBlank: ~
+        dueDate:
+            - NotBlank: ~
+            - Type: \DateTime
