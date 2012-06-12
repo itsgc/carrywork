@@ -3,10 +3,6 @@
 namespace Will\CarryBundle\Controller;
 
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
-
-
-// src/Will/CarryBundle/Controller/DefaultController.php
-
 use Will\CarryBundle\Entity\Task;
 use Symfony\Component\HttpFoundation\Request;
 
